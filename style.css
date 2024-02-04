@@ -1,0 +1,72 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #FDF0D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    background-image: url('money.jpg');
+    background-size: contain;
+}
+.container{
+    background-color:#AC7D88;
+    padding: 2rem;
+    min-height: 50vh;
+    min-width: 40vh;
+    border: 1px solid rgb(57, 56, 56);
+}
+.container h1{
+    text-align: center;
+}
+form{
+    margin: 1rem 0 1rem 0;
+}
+form select,input,button{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.drop{
+    display: flex;
+    width: 5rem;
+border: 1px solid rgb(57, 56, 56);
+border-radius: 0.5rem;
+}
+i{
+    font-size: 1.2rem;
+    margin: 20px;
+}
+.drop select{
+    background-color: transparent;
+
+}
+.drop img{
+    width: 2rem;
+}
+input{
+    padding-left: 5px;
+    height: 1.6rem;
+    border: 1px solid rgb(57, 56, 56);
+    border-radius: 0.5rem;
+}
+.msgconv{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+button{
+    background-color: #643843;
+    color: #FDF0D1;
+    font-size: 1.1rem;
+    height: 2rem;
+    border: 1px solid rgb(57, 56, 56);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
